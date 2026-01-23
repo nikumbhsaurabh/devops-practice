@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Memory Usage Threshold (Percenatge)
-THRESHOLD=40
+THRESHOLD=75
 
 # Memory Usage Percentage kadhato
 USAGE=$(free | awk '/Mem:/ {printf("%.0f"), $3/$2 * 100}')

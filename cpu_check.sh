@@ -1,5 +1,5 @@
 #!/bin/bash
-THRESHOLD=10
+THRESHOLD=75
 
 #CPU idel % kadhto (vmstat)
 IDLE=$(vmstat 1 2 | tail -1 | awk '{print $15}')
