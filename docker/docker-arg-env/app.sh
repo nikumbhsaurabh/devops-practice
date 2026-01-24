@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "APP NAME: $APP_NAME"
+echo "ENVIRONMENT: $ENVIRONMENT"
+echo "BUILD VERSION: $BUILD_VERSION"
